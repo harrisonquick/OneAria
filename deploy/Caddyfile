@@ -1,0 +1,8 @@
+129.159.121.17.sslip.io {
+	reverse_proxy 127.0.0.1:8080
+	encode gzip zstd
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy no-referrer
+	}
+}
