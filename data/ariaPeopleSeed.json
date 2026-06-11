@@ -1,0 +1,2328 @@
+{
+  "meta": {
+    "datasetName": "Aria People 2.0 synthetic seed",
+    "generatedAt": "2026-06-11",
+    "sourceMaterial": "Modeled from a saved Aria People profile page",
+    "privacy": "Synthetic data only. No real employee names, contact details, Slack IDs, profile URLs, session IDs, or organization identifiers are included.",
+    "pageVersionModeled": "Aria People 3.5.0",
+    "lastRefreshDisplay": "Thursday June 11, 2026 05:33 UTC"
+  },
+  "uiSections": [
+    {
+      "id": "profile-header",
+      "title": "Profile Header",
+      "fields": [
+        "displayName",
+        "title",
+        "locationSummary",
+        "localTime",
+        "email",
+        "mobilePhone",
+        "permalink",
+        "pronouns",
+        "profilePhotoUrl"
+      ]
+    },
+    {
+      "id": "about",
+      "title": "About",
+      "fields": [
+        "about",
+        "aboutPromptVisible",
+        "badges",
+        "patents"
+      ]
+    },
+    {
+      "id": "organization",
+      "title": "Organization",
+      "fields": [
+        "managerId",
+        "managerChain",
+        "directReportIds",
+        "orgChartUrl"
+      ]
+    },
+    {
+      "id": "links",
+      "title": "Links",
+      "fields": [
+        "links",
+        "linksPromptVisible"
+      ]
+    },
+    {
+      "id": "tags",
+      "title": "Tags",
+      "fields": [
+        "tags",
+        "tagsPromptVisible"
+      ]
+    },
+    {
+      "id": "additional-information",
+      "title": "Additional Information",
+      "fields": [
+        "costCenter",
+        "legacyOrganization",
+        "legacyCostCenter",
+        "companyCode",
+        "globalUid",
+        "jobCodeTitle",
+        "productAssociation",
+        "hrRepresentative",
+        "hrManager",
+        "hrAddress",
+        "slackWorkspaces"
+      ]
+    },
+    {
+      "id": "contact-information",
+      "title": "Contact Information",
+      "fields": [
+        "contactActions",
+        "downloadContactUrl"
+      ]
+    },
+    {
+      "id": "location",
+      "title": "Location",
+      "fields": [
+        "address",
+        "building",
+        "workspaceType",
+        "timeZone",
+        "localTime"
+      ]
+    }
+  ],
+  "badgeCatalog": [
+    {
+      "id": "badge-compliance-fy26-gold",
+      "name": "Global Compliance Training FY26 Gold",
+      "category": "Compliance",
+      "issuer": "Learning Portal",
+      "earnedDate": "2026-05-17",
+      "imageKey": "compliance-gold"
+    },
+    {
+      "id": "badge-compliance-fy25-gold",
+      "name": "Global Compliance Training FY25 Gold",
+      "category": "Compliance",
+      "issuer": "Learning Portal",
+      "earnedDate": "2025-05-20",
+      "imageKey": "compliance-gold"
+    },
+    {
+      "id": "badge-cloud-architect-pro",
+      "name": "Cloud Infrastructure Architect Professional",
+      "category": "Certification",
+      "issuer": "Cloud Certification",
+      "earnedDate": "2026-03-08",
+      "imageKey": "cloud-architect"
+    },
+    {
+      "id": "badge-cloud-ai-associate",
+      "name": "Cloud AI Associate",
+      "category": "Certification",
+      "issuer": "Cloud Certification",
+      "earnedDate": "2025-11-11",
+      "imageKey": "cloud-ai"
+    },
+    {
+      "id": "badge-cloud-ops-pro",
+      "name": "Cloud Operations Professional",
+      "category": "Certification",
+      "issuer": "Cloud Certification",
+      "earnedDate": "2025-09-13",
+      "imageKey": "cloud-ops"
+    },
+    {
+      "id": "badge-cloud-developer-pro",
+      "name": "Cloud Developer Professional",
+      "category": "Certification",
+      "issuer": "Cloud Certification",
+      "earnedDate": "2025-09-15",
+      "imageKey": "cloud-developer"
+    },
+    {
+      "id": "badge-data-platform-specialist",
+      "name": "Autonomous Data Platform Specialist",
+      "category": "Certification",
+      "issuer": "Data Platform Academy",
+      "earnedDate": "2025-07-30",
+      "imageKey": "autonomous-data"
+    },
+    {
+      "id": "badge-sql-foundations",
+      "name": "SQL Foundations",
+      "category": "Certification",
+      "issuer": "Data Platform Academy",
+      "earnedDate": "2024-12-02",
+      "imageKey": "sql"
+    },
+    {
+      "id": "badge-database-foundations",
+      "name": "Database Foundations",
+      "category": "Certification",
+      "issuer": "Data Platform Academy",
+      "earnedDate": "2024-10-09",
+      "imageKey": "database"
+    },
+    {
+      "id": "badge-selling-with-value",
+      "name": "Selling With Value",
+      "category": "Enablement",
+      "issuer": "Revenue Enablement",
+      "earnedDate": "2026-01-22",
+      "imageKey": "value-selling"
+    },
+    {
+      "id": "badge-winning-demonstrations",
+      "name": "Winning Demonstrations",
+      "category": "Enablement",
+      "issuer": "Revenue Enablement",
+      "earnedDate": "2025-04-18",
+      "imageKey": "demo"
+    },
+    {
+      "id": "badge-class-of-se",
+      "name": "Class of Solution Engineering",
+      "category": "Enablement",
+      "issuer": "Revenue Enablement",
+      "earnedDate": "2024-08-26",
+      "imageKey": "solution-engineering"
+    },
+    {
+      "id": "badge-fast-start-fy26",
+      "name": "FY26 Fast Start",
+      "category": "Enablement",
+      "issuer": "Sales Academy",
+      "earnedDate": "2026-06-03",
+      "imageKey": "fast-start"
+    },
+    {
+      "id": "badge-enterprise-architecture",
+      "name": "Enterprise Architecture Foundations",
+      "category": "Enablement",
+      "issuer": "Architecture Guild",
+      "earnedDate": "2025-02-14",
+      "imageKey": "architecture"
+    },
+    {
+      "id": "badge-security-champion",
+      "name": "Security Champion",
+      "category": "Recognition",
+      "issuer": "Security Office",
+      "earnedDate": "2025-12-12",
+      "imageKey": "security"
+    },
+    {
+      "id": "badge-customer-impact",
+      "name": "Customer Impact Award",
+      "category": "Recognition",
+      "issuer": "Field Operations",
+      "earnedDate": "2026-02-27",
+      "imageKey": "customer-impact"
+    },
+    {
+      "id": "badge-innovation-sprint",
+      "name": "Innovation Sprint Finalist",
+      "category": "Recognition",
+      "issuer": "Hackathon Team",
+      "earnedDate": "2026-04-10",
+      "imageKey": "innovation"
+    }
+  ],
+  "orgUnits": [
+    {
+      "id": "org-board",
+      "name": "Executive Council",
+      "parentId": null,
+      "costCenterCode": "100000",
+      "companyCode": "001"
+    },
+    {
+      "id": "org-cloud",
+      "name": "Cloud Infrastructure",
+      "parentId": "org-board",
+      "costCenterCode": "210000",
+      "companyCode": "001"
+    },
+    {
+      "id": "org-field-ops",
+      "name": "Global Field Operations",
+      "parentId": "org-cloud",
+      "costCenterCode": "310000",
+      "companyCode": "001"
+    },
+    {
+      "id": "org-na-sales-engineering",
+      "name": "North America Sales Engineering",
+      "parentId": "org-field-ops",
+      "costCenterCode": "410000",
+      "companyCode": "001"
+    },
+    {
+      "id": "org-oci-sales-engineering",
+      "name": "Cloud Infrastructure Sales Engineering",
+      "parentId": "org-na-sales-engineering",
+      "costCenterCode": "420000",
+      "companyCode": "001"
+    },
+    {
+      "id": "org-ai-isv",
+      "name": "AI ISV Solutions",
+      "parentId": "org-oci-sales-engineering",
+      "costCenterCode": "421000",
+      "companyCode": "001"
+    },
+    {
+      "id": "org-data-platform",
+      "name": "Data Platform Engineering",
+      "parentId": "org-na-sales-engineering",
+      "costCenterCode": "430000",
+      "companyCode": "001"
+    },
+    {
+      "id": "org-public-sector",
+      "name": "Government and Regulated Industries",
+      "parentId": "org-field-ops",
+      "costCenterCode": "440000",
+      "companyCode": "001"
+    },
+    {
+      "id": "org-customer-success",
+      "name": "Customer Success Services",
+      "parentId": "org-cloud",
+      "costCenterCode": "510000",
+      "companyCode": "001"
+    },
+    {
+      "id": "org-business-ops",
+      "name": "Business Operations",
+      "parentId": "org-field-ops",
+      "costCenterCode": "610000",
+      "companyCode": "001"
+    }
+  ],
+  "people": [
+    {
+      "id": "person-alex-rivers",
+      "globalUid": "ARIVERS",
+      "displayName": "Alex Rivers",
+      "preferredName": "Alex",
+      "username": "alex.rivers",
+      "email": "alex.rivers@example-corp.test",
+      "mobilePhone": "+1 555-010-1001",
+      "slackId": "UFAKE0001",
+      "profilePhotoUrl": "/avatars/alex-rivers.png",
+      "permalink": "https://people.example.test/@arivers",
+      "pronouns": "They/Them",
+      "title": "Chief Executive Officer",
+      "jobCodeTitle": "10001.Chief Executive Officer.EXE",
+      "level": "Executive",
+      "department": "Executive Council",
+      "orgUnitId": "org-board",
+      "managerId": null,
+      "directReportIds": [
+        "person-morgan-lee",
+        "person-rina-kapoor"
+      ],
+      "managerChain": [],
+      "about": "Leads company strategy, operating rhythm, and long-range cloud growth priorities.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Operating Plan",
+          "url": "https://intranet.example.test/operating-plan"
+        }
+      ],
+      "tags": [
+        "executive",
+        "strategy",
+        "cloud"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-customer-impact"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Austin TX, US",
+        "address": "2300 Example Way",
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78741",
+        "country": "US",
+        "building": "Austin - 2300 Example Way",
+        "workspaceType": "FLEX",
+        "timeZone": "US/Central",
+        "localTimeDisplay": "10:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "100000 - Executive Council",
+        "legacyOrganization": "Executive Council",
+        "legacyCostCenter": "EXE1",
+        "companyCode": "001",
+        "productAssociation": "All Products",
+        "hrRepresentative": "People Operations",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "Remote",
+        "slackWorkspaces": [
+          "Executive",
+          "Company All"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-morgan-lee",
+      "globalUid": "MLEE",
+      "displayName": "Morgan Lee",
+      "preferredName": "Morgan",
+      "username": "morgan.lee",
+      "email": "morgan.lee@example-corp.test",
+      "mobilePhone": "+1 555-010-1002",
+      "slackId": "UFAKE0002",
+      "profilePhotoUrl": "/avatars/morgan-lee.png",
+      "permalink": "https://people.example.test/@mlee",
+      "pronouns": "She/Her",
+      "title": "President, Global Field Operations",
+      "jobCodeTitle": "10120.President Field Operations.EXE",
+      "level": "Executive",
+      "department": "Global Field Operations",
+      "orgUnitId": "org-field-ops",
+      "managerId": "person-alex-rivers",
+      "directReportIds": [
+        "person-priya-shah",
+        "person-drew-hart",
+        "person-lena-okafor"
+      ],
+      "managerChain": [
+        "person-alex-rivers"
+      ],
+      "about": "Runs the field organization across sales, engineering, partner motions, and business operations.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Field Playbook",
+          "url": "https://intranet.example.test/field-playbook"
+        }
+      ],
+      "tags": [
+        "field-operations",
+        "sales",
+        "leadership"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-selling-with-value"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Redwood City CA, US",
+        "address": "500 Example Parkway",
+        "city": "Redwood City",
+        "state": "CA",
+        "postalCode": "94065",
+        "country": "US",
+        "building": "Redwood City - 500 Example Parkway",
+        "workspaceType": "ASSIGNED",
+        "timeZone": "US/Pacific",
+        "localTimeDisplay": "8:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "310000 - Global Field Operations",
+        "legacyOrganization": "Global Field Operations",
+        "legacyCostCenter": "GFO1",
+        "companyCode": "001",
+        "productAssociation": "Cloud Portfolio",
+        "hrRepresentative": "People Operations",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "500 Example Parkway",
+        "slackWorkspaces": [
+          "Field-Ops",
+          "Company All",
+          "Sales-Tech"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-rina-kapoor",
+      "globalUid": "RKAPOOR",
+      "displayName": "Rina Kapoor",
+      "preferredName": "Rina",
+      "username": "rina.kapoor",
+      "email": "rina.kapoor@example-corp.test",
+      "mobilePhone": "+1 555-010-1003",
+      "slackId": "UFAKE0003",
+      "profilePhotoUrl": "/avatars/rina-kapoor.png",
+      "permalink": "https://people.example.test/@rkapoor",
+      "pronouns": "She/Her",
+      "title": "EVP, Customer Success Services",
+      "jobCodeTitle": "10180.Executive Vice President.EXE",
+      "level": "Executive",
+      "department": "Customer Success Services",
+      "orgUnitId": "org-customer-success",
+      "managerId": "person-alex-rivers",
+      "directReportIds": [
+        "person-omar-nasser"
+      ],
+      "managerChain": [
+        "person-alex-rivers"
+      ],
+      "about": "Focuses on customer health, adoption programs, and renewal outcomes.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": true,
+      "tagsPromptVisible": false,
+      "links": [],
+      "tags": [
+        "customer-success",
+        "adoption",
+        "renewals"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-customer-impact"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "New York NY, US",
+        "address": "90 Sample Avenue",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001",
+        "country": "US",
+        "building": "New York - 90 Sample Avenue",
+        "workspaceType": "FLEX",
+        "timeZone": "US/Eastern",
+        "localTimeDisplay": "11:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "510000 - Customer Success Services",
+        "legacyOrganization": "Customer Success Services",
+        "legacyCostCenter": "CSS1",
+        "companyCode": "001",
+        "productAssociation": "Cloud Portfolio",
+        "hrRepresentative": "People Operations",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Customer-Success",
+          "Company All"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-priya-shah",
+      "globalUid": "PSHAH",
+      "displayName": "Priya Shah",
+      "preferredName": "Priya",
+      "username": "priya.shah",
+      "email": "priya.shah@example-corp.test",
+      "mobilePhone": "+1 555-010-1004",
+      "slackId": "UFAKE0004",
+      "profilePhotoUrl": "/avatars/priya-shah.png",
+      "permalink": "https://people.example.test/@pshah",
+      "pronouns": "She/Her",
+      "title": "SVP, North America Cloud Sales Engineering",
+      "jobCodeTitle": "10150.Senior Vice President.EXE",
+      "level": "SVP",
+      "department": "North America Sales Engineering",
+      "orgUnitId": "org-na-sales-engineering",
+      "managerId": "person-morgan-lee",
+      "directReportIds": [
+        "person-jordan-kim",
+        "person-nina-alvarez",
+        "person-victor-chen"
+      ],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee"
+      ],
+      "about": "Leads technical sales strategy for cloud infrastructure, data platform, and AI workloads.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "NA Engineering Hub",
+          "url": "https://intranet.example.test/na-engineering"
+        }
+      ],
+      "tags": [
+        "sales-engineering",
+        "cloud-infrastructure",
+        "ai"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-cloud-architect-pro",
+        "badge-selling-with-value"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Austin TX, US",
+        "address": "2300 Example Way",
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78741",
+        "country": "US",
+        "building": "Austin - 2300 Example Way",
+        "workspaceType": "FLEX",
+        "timeZone": "US/Central",
+        "localTimeDisplay": "10:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "410000 - North America Sales Engineering",
+        "legacyOrganization": "NA Sales Engineering",
+        "legacyCostCenter": "NASE",
+        "companyCode": "001",
+        "productAssociation": "Cloud Infrastructure",
+        "hrRepresentative": "People Operations",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Cloud-Infra",
+          "Sales-Tech",
+          "Company All"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-jordan-kim",
+      "globalUid": "JKIM",
+      "displayName": "Jordan Kim",
+      "preferredName": "Jordan",
+      "username": "jordan.kim",
+      "email": "jordan.kim@example-corp.test",
+      "mobilePhone": "+1 555-010-1005",
+      "slackId": "UFAKE0005",
+      "profilePhotoUrl": "/avatars/jordan-kim.png",
+      "permalink": "https://people.example.test/@jkim",
+      "pronouns": "He/Him",
+      "title": "Senior Director, Cloud Infrastructure Solutions",
+      "jobCodeTitle": "10230.Senior Director.M5",
+      "level": "M5",
+      "department": "Cloud Infrastructure Sales Engineering",
+      "orgUnitId": "org-oci-sales-engineering",
+      "managerId": "person-priya-shah",
+      "directReportIds": [
+        "person-avery-stone",
+        "person-samira-patel",
+        "person-mateo-brooks",
+        "person-riley-chen"
+      ],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah"
+      ],
+      "about": "Builds regional engineering coverage for strategic cloud infrastructure accounts.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Team Charter",
+          "url": "https://intranet.example.test/cloud-solutions-charter"
+        }
+      ],
+      "tags": [
+        "management",
+        "cloud-infrastructure",
+        "solution-engineering"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-enterprise-architecture",
+        "badge-customer-impact"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Denver CO, US",
+        "address": "1400 Demo Street",
+        "city": "Denver",
+        "state": "CO",
+        "postalCode": "80202",
+        "country": "US",
+        "building": "Denver - 1400 Demo Street",
+        "workspaceType": "REMOTE",
+        "timeZone": "US/Mountain",
+        "localTimeDisplay": "9:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "420000 - Cloud Infrastructure Sales Engineering",
+        "legacyOrganization": "Cloud Infrastructure Sales Engineering",
+        "legacyCostCenter": "CISE",
+        "companyCode": "001",
+        "productAssociation": "Cloud Infrastructure",
+        "hrRepresentative": "People Operations",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Cloud-Infra",
+          "Sales-Tech",
+          "Managers"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-avery-stone",
+      "globalUid": "ASTONE",
+      "displayName": "Avery Stone",
+      "preferredName": "Avery",
+      "username": "avery.stone",
+      "email": "avery.stone@example-corp.test",
+      "mobilePhone": "+1 555-010-1006",
+      "slackId": "UFAKE0006",
+      "profilePhotoUrl": "/avatars/avery-stone.png",
+      "permalink": "https://people.example.test/@astone",
+      "pronouns": "He/Him",
+      "title": "Senior Cloud Engineer",
+      "jobCodeTitle": "91603.Cloud Solution Engineer 3.IC3",
+      "level": "IC3",
+      "department": "Cloud Infrastructure Sales Engineering",
+      "orgUnitId": "org-oci-sales-engineering",
+      "managerId": "person-jordan-kim",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah",
+        "person-jordan-kim"
+      ],
+      "about": "Senior Cloud Engineer focused on cloud architecture, AI platform demos, and customer proof-of-concepts.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": true,
+      "tagsPromptVisible": true,
+      "links": [],
+      "tags": [],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-compliance-fy25-gold",
+        "badge-cloud-architect-pro",
+        "badge-cloud-ai-associate",
+        "badge-cloud-ops-pro",
+        "badge-cloud-developer-pro",
+        "badge-data-platform-specialist",
+        "badge-sql-foundations",
+        "badge-database-foundations",
+        "badge-selling-with-value",
+        "badge-winning-demonstrations",
+        "badge-class-of-se",
+        "badge-fast-start-fy26",
+        "badge-enterprise-architecture"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Austin TX, US",
+        "address": "2300 Example Way",
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78741",
+        "country": "US",
+        "building": "Austin - 2300 Example Way",
+        "workspaceType": "FLEX",
+        "timeZone": "US/Central",
+        "localTimeDisplay": "10:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "420177 - Cloud Infrastructure Sales Engineering",
+        "legacyOrganization": "Cloud Infrastructure Sales Engineering",
+        "legacyCostCenter": "B4X1",
+        "companyCode": "001",
+        "productAssociation": "-",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Cloud-Infra-GBU",
+          "Company All",
+          "Sales-Cloud-Marketing",
+          "Sales-Tech-Div"
+        ]
+      },
+      "availability": {
+        "status": "out-of-office",
+        "outOfOfficeMessage": "I am out of office through Friday and will respond when I return.",
+        "outOfOfficeStart": "2026-06-11",
+        "outOfOfficeEnd": "2026-06-12"
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "phone",
+          "label": "Call mobile phone"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "video",
+          "label": "Begin Video Conference"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-samira-patel",
+      "globalUid": "SPATEL",
+      "displayName": "Samira Patel",
+      "preferredName": "Samira",
+      "username": "samira.patel",
+      "email": "samira.patel@example-corp.test",
+      "mobilePhone": "+1 555-010-1007",
+      "slackId": "UFAKE0007",
+      "profilePhotoUrl": "/avatars/samira-patel.png",
+      "permalink": "https://people.example.test/@spatel",
+      "pronouns": "She/Her",
+      "title": "Cloud Solution Engineer",
+      "jobCodeTitle": "91602.Cloud Solution Engineer 2.IC2",
+      "level": "IC2",
+      "department": "Cloud Infrastructure Sales Engineering",
+      "orgUnitId": "org-oci-sales-engineering",
+      "managerId": "person-jordan-kim",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah",
+        "person-jordan-kim"
+      ],
+      "about": "Works with startup and digital-native customers on landing zones, cost governance, and app migration.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Migration Toolkit",
+          "url": "https://intranet.example.test/migration-toolkit"
+        }
+      ],
+      "tags": [
+        "migration",
+        "landing-zones",
+        "finops"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-cloud-architect-pro",
+        "badge-fast-start-fy26"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Chicago IL, US",
+        "address": "222 Demo Plaza",
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60606",
+        "country": "US",
+        "building": "Chicago - 222 Demo Plaza",
+        "workspaceType": "FLEX",
+        "timeZone": "US/Central",
+        "localTimeDisplay": "10:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "420177 - Cloud Infrastructure Sales Engineering",
+        "legacyOrganization": "Cloud Infrastructure Sales Engineering",
+        "legacyCostCenter": "B4X1",
+        "companyCode": "001",
+        "productAssociation": "Cloud Infrastructure",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Cloud-Infra-GBU",
+          "Sales-Tech-Div"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "phone",
+          "label": "Call mobile phone"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-mateo-brooks",
+      "globalUid": "MBROOKS",
+      "displayName": "Mateo Brooks",
+      "preferredName": "Mateo",
+      "username": "mateo.brooks",
+      "email": "mateo.brooks@example-corp.test",
+      "mobilePhone": "+1 555-010-1008",
+      "slackId": "UFAKE0008",
+      "profilePhotoUrl": "/avatars/mateo-brooks.png",
+      "permalink": "https://people.example.test/@mbrooks",
+      "pronouns": "He/Him",
+      "title": "Principal Cloud Architect",
+      "jobCodeTitle": "91605.Principal Cloud Architect.IC5",
+      "level": "IC5",
+      "department": "Cloud Infrastructure Sales Engineering",
+      "orgUnitId": "org-oci-sales-engineering",
+      "managerId": "person-jordan-kim",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah",
+        "person-jordan-kim"
+      ],
+      "about": "Designs resilient multi-region architectures and coaches teams on reliability reviews.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Reference Architectures",
+          "url": "https://intranet.example.test/reference-architectures"
+        }
+      ],
+      "tags": [
+        "architecture",
+        "resilience",
+        "networking"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-cloud-architect-pro",
+        "badge-cloud-ops-pro",
+        "badge-security-champion"
+      ],
+      "patents": [
+        {
+          "id": "patent-001",
+          "title": "Policy-Aware Cloud Deployment Planner",
+          "status": "filed"
+        }
+      ],
+      "location": {
+        "summary": "Seattle WA, US",
+        "address": "600 Sample Street",
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98101",
+        "country": "US",
+        "building": "Seattle - 600 Sample Street",
+        "workspaceType": "REMOTE",
+        "timeZone": "US/Pacific",
+        "localTimeDisplay": "8:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "420177 - Cloud Infrastructure Sales Engineering",
+        "legacyOrganization": "Cloud Infrastructure Sales Engineering",
+        "legacyCostCenter": "B4X1",
+        "companyCode": "001",
+        "productAssociation": "Cloud Infrastructure",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Cloud-Infra-GBU",
+          "Architecture-Guild"
+        ]
+      },
+      "availability": {
+        "status": "busy",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-riley-chen",
+      "globalUid": "RCHEN",
+      "displayName": "Riley Chen",
+      "preferredName": "Riley",
+      "username": "riley.chen",
+      "email": "riley.chen@example-corp.test",
+      "mobilePhone": "+1 555-010-1009",
+      "slackId": "UFAKE0009",
+      "profilePhotoUrl": "/avatars/riley-chen.png",
+      "permalink": "https://people.example.test/@rchen",
+      "pronouns": "They/Them",
+      "title": "Cloud Solution Engineer",
+      "jobCodeTitle": "91602.Cloud Solution Engineer 2.IC2",
+      "level": "IC2",
+      "department": "Cloud Infrastructure Sales Engineering",
+      "orgUnitId": "org-oci-sales-engineering",
+      "managerId": "person-jordan-kim",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah",
+        "person-jordan-kim"
+      ],
+      "about": "Supports healthcare and public sector accounts with secure cloud adoption workshops.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": true,
+      "tagsPromptVisible": false,
+      "links": [],
+      "tags": [
+        "security",
+        "regulated-industries",
+        "workshops"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-security-champion",
+        "badge-cloud-ai-associate"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Reston VA, US",
+        "address": "1800 Example Boulevard",
+        "city": "Reston",
+        "state": "VA",
+        "postalCode": "20190",
+        "country": "US",
+        "building": "Reston - 1800 Example Boulevard",
+        "workspaceType": "ASSIGNED",
+        "timeZone": "US/Eastern",
+        "localTimeDisplay": "11:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "420177 - Cloud Infrastructure Sales Engineering",
+        "legacyOrganization": "Cloud Infrastructure Sales Engineering",
+        "legacyCostCenter": "B4X1",
+        "companyCode": "001",
+        "productAssociation": "Security",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Cloud-Infra-GBU",
+          "Public-Sector",
+          "Security"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "phone",
+          "label": "Call mobile phone"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-nina-alvarez",
+      "globalUid": "NALVAREZ",
+      "displayName": "Nina Alvarez",
+      "preferredName": "Nina",
+      "username": "nina.alvarez",
+      "email": "nina.alvarez@example-corp.test",
+      "mobilePhone": "+1 555-010-1010",
+      "slackId": "UFAKE0010",
+      "profilePhotoUrl": "/avatars/nina-alvarez.png",
+      "permalink": "https://people.example.test/@nalvarez",
+      "pronouns": "She/Her",
+      "title": "RVP, AI ISV Solutions",
+      "jobCodeTitle": "10210.Regional Vice President.M6",
+      "level": "M6",
+      "department": "AI ISV Solutions",
+      "orgUnitId": "org-ai-isv",
+      "managerId": "person-priya-shah",
+      "directReportIds": [
+        "person-noor-williams",
+        "person-elliot-garcia",
+        "person-taylor-nguyen"
+      ],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah"
+      ],
+      "about": "Owns AI ISV solution engineering strategy, partner demos, and executive briefing readiness.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "AI ISV Demo Catalog",
+          "url": "https://intranet.example.test/ai-isv-demo-catalog"
+        }
+      ],
+      "tags": [
+        "ai",
+        "isv",
+        "partner-engineering"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-cloud-ai-associate",
+        "badge-innovation-sprint"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "San Francisco CA, US",
+        "address": "415 Market Example",
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94105",
+        "country": "US",
+        "building": "San Francisco - 415 Market Example",
+        "workspaceType": "FLEX",
+        "timeZone": "US/Pacific",
+        "localTimeDisplay": "8:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "421000 - AI ISV Solutions",
+        "legacyOrganization": "AI ISV Solutions",
+        "legacyCostCenter": "AIISV",
+        "companyCode": "001",
+        "productAssociation": "AI Services",
+        "hrRepresentative": "People Operations",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "AI-ISV",
+          "Cloud-Infra-GBU",
+          "Sales-Tech-Div"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-noor-williams",
+      "globalUid": "NWILLIAMS",
+      "displayName": "Noor Williams",
+      "preferredName": "Noor",
+      "username": "noor.williams",
+      "email": "noor.williams@example-corp.test",
+      "mobilePhone": "+1 555-010-1011",
+      "slackId": "UFAKE0011",
+      "profilePhotoUrl": "/avatars/noor-williams.png",
+      "permalink": "https://people.example.test/@nwilliams",
+      "pronouns": "She/Her",
+      "title": "AI Platform Specialist",
+      "jobCodeTitle": "91604.Cloud Solution Engineer 4.IC4",
+      "level": "IC4",
+      "department": "AI ISV Solutions",
+      "orgUnitId": "org-ai-isv",
+      "managerId": "person-nina-alvarez",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah",
+        "person-nina-alvarez"
+      ],
+      "about": "Creates AI platform demos for retrieval, evaluation, and model deployment patterns.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "AI Patterns Library",
+          "url": "https://intranet.example.test/ai-patterns"
+        }
+      ],
+      "tags": [
+        "ai-platform",
+        "demos",
+        "rag"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-cloud-ai-associate",
+        "badge-winning-demonstrations"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Atlanta GA, US",
+        "address": "880 Sample Road",
+        "city": "Atlanta",
+        "state": "GA",
+        "postalCode": "30303",
+        "country": "US",
+        "building": "Atlanta - 880 Sample Road",
+        "workspaceType": "REMOTE",
+        "timeZone": "US/Eastern",
+        "localTimeDisplay": "11:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "421000 - AI ISV Solutions",
+        "legacyOrganization": "AI ISV Solutions",
+        "legacyCostCenter": "AIISV",
+        "companyCode": "001",
+        "productAssociation": "AI Services",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "AI-ISV",
+          "AI-Demos"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-elliot-garcia",
+      "globalUid": "EGARCIA",
+      "displayName": "Elliot Garcia",
+      "preferredName": "Elliot",
+      "username": "elliot.garcia",
+      "email": "elliot.garcia@example-corp.test",
+      "mobilePhone": "+1 555-010-1012",
+      "slackId": "UFAKE0012",
+      "profilePhotoUrl": "/avatars/elliot-garcia.png",
+      "permalink": "https://people.example.test/@egarcia",
+      "pronouns": "They/Them",
+      "title": "Partner Solution Engineer",
+      "jobCodeTitle": "91603.Cloud Solution Engineer 3.IC3",
+      "level": "IC3",
+      "department": "AI ISV Solutions",
+      "orgUnitId": "org-ai-isv",
+      "managerId": "person-nina-alvarez",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah",
+        "person-nina-alvarez"
+      ],
+      "about": "Helps partners publish reference architectures and repeatable marketplace demos.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": true,
+      "tagsPromptVisible": true,
+      "links": [],
+      "tags": [],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-class-of-se",
+        "badge-selling-with-value"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Austin TX, US",
+        "address": "2300 Example Way",
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78741",
+        "country": "US",
+        "building": "Austin - 2300 Example Way",
+        "workspaceType": "FLEX",
+        "timeZone": "US/Central",
+        "localTimeDisplay": "10:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "421000 - AI ISV Solutions",
+        "legacyOrganization": "AI ISV Solutions",
+        "legacyCostCenter": "AIISV",
+        "companyCode": "001",
+        "productAssociation": "AI Services",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "AI-ISV",
+          "Partner-Tech"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "phone",
+          "label": "Call mobile phone"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-taylor-nguyen",
+      "globalUid": "TNGUYEN",
+      "displayName": "Taylor Nguyen",
+      "preferredName": "Taylor",
+      "username": "taylor.nguyen",
+      "email": "taylor.nguyen@example-corp.test",
+      "mobilePhone": "+1 555-010-1013",
+      "slackId": "UFAKE0013",
+      "profilePhotoUrl": "/avatars/taylor-nguyen.png",
+      "permalink": "https://people.example.test/@tnguyen",
+      "pronouns": "They/Them",
+      "title": "Cloud AI Engineer",
+      "jobCodeTitle": "91603.Cloud Solution Engineer 3.IC3",
+      "level": "IC3",
+      "department": "AI ISV Solutions",
+      "orgUnitId": "org-ai-isv",
+      "managerId": "person-nina-alvarez",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah",
+        "person-nina-alvarez"
+      ],
+      "about": "Builds reusable AI demos and coordinates hackathon enablement for field engineers.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Hackathon Assets",
+          "url": "https://intranet.example.test/hackathon-assets"
+        }
+      ],
+      "tags": [
+        "hackathon",
+        "ai",
+        "enablement"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-cloud-ai-associate",
+        "badge-innovation-sprint",
+        "badge-fast-start-fy26"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Toronto ON, CA",
+        "address": "77 Demo King Street",
+        "city": "Toronto",
+        "state": "ON",
+        "postalCode": "M5H 1J9",
+        "country": "CA",
+        "building": "Toronto - 77 Demo King Street",
+        "workspaceType": "FLEX",
+        "timeZone": "America/Toronto",
+        "localTimeDisplay": "11:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "421000 - AI ISV Solutions",
+        "legacyOrganization": "AI ISV Solutions",
+        "legacyCostCenter": "AIISV",
+        "companyCode": "014",
+        "productAssociation": "AI Services",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "AI-ISV",
+          "Hackathon-Team"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-victor-chen",
+      "globalUid": "VCHEN",
+      "displayName": "Victor Chen",
+      "preferredName": "Victor",
+      "username": "victor.chen",
+      "email": "victor.chen@example-corp.test",
+      "mobilePhone": "+1 555-010-1014",
+      "slackId": "UFAKE0014",
+      "profilePhotoUrl": "/avatars/victor-chen.png",
+      "permalink": "https://people.example.test/@vchen",
+      "pronouns": "He/Him",
+      "title": "SVP, Data Platform Sales Engineering",
+      "jobCodeTitle": "10150.Senior Vice President.EXE",
+      "level": "SVP",
+      "department": "Data Platform Engineering",
+      "orgUnitId": "org-data-platform",
+      "managerId": "person-priya-shah",
+      "directReportIds": [
+        "person-casey-morgan",
+        "person-imanicarter"
+      ],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah"
+      ],
+      "about": "Leads data platform solution engineering for analytics, autonomous data services, and modernization.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Data Platform Hub",
+          "url": "https://intranet.example.test/data-platform"
+        }
+      ],
+      "tags": [
+        "data-platform",
+        "analytics",
+        "modernization"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-data-platform-specialist",
+        "badge-database-foundations"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Boston MA, US",
+        "address": "12 Example Wharf",
+        "city": "Boston",
+        "state": "MA",
+        "postalCode": "02210",
+        "country": "US",
+        "building": "Boston - 12 Example Wharf",
+        "workspaceType": "ASSIGNED",
+        "timeZone": "US/Eastern",
+        "localTimeDisplay": "11:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "430000 - Data Platform Engineering",
+        "legacyOrganization": "Data Platform Engineering",
+        "legacyCostCenter": "DATA",
+        "companyCode": "001",
+        "productAssociation": "Data Platform",
+        "hrRepresentative": "People Operations",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Data-Platform",
+          "Sales-Tech-Div"
+        ]
+      },
+      "availability": {
+        "status": "busy",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-casey-morgan",
+      "globalUid": "CMORGAN",
+      "displayName": "Casey Morgan",
+      "preferredName": "Casey",
+      "username": "casey.morgan",
+      "email": "casey.morgan@example-corp.test",
+      "mobilePhone": "+1 555-010-1015",
+      "slackId": "UFAKE0015",
+      "profilePhotoUrl": "/avatars/casey-morgan.png",
+      "permalink": "https://people.example.test/@cmorgan",
+      "pronouns": "She/Her",
+      "title": "Database Solution Engineer",
+      "jobCodeTitle": "91603.Cloud Solution Engineer 3.IC3",
+      "level": "IC3",
+      "department": "Data Platform Engineering",
+      "orgUnitId": "org-data-platform",
+      "managerId": "person-victor-chen",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah",
+        "person-victor-chen"
+      ],
+      "about": "Specializes in autonomous database, SQL tuning, and executive workshops for data modernization.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "SQL Workshop",
+          "url": "https://intranet.example.test/sql-workshop"
+        }
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "autonomous-data"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-data-platform-specialist",
+        "badge-sql-foundations",
+        "badge-database-foundations"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Raleigh NC, US",
+        "address": "300 Example Circle",
+        "city": "Raleigh",
+        "state": "NC",
+        "postalCode": "27601",
+        "country": "US",
+        "building": "Raleigh - 300 Example Circle",
+        "workspaceType": "REMOTE",
+        "timeZone": "US/Eastern",
+        "localTimeDisplay": "11:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "430000 - Data Platform Engineering",
+        "legacyOrganization": "Data Platform Engineering",
+        "legacyCostCenter": "DATA",
+        "companyCode": "001",
+        "productAssociation": "Data Platform",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Data-Platform",
+          "Database"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "phone",
+          "label": "Call mobile phone"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-imanicarter",
+      "globalUid": "ICARTER",
+      "displayName": "Imani Carter",
+      "preferredName": "Imani",
+      "username": "imani.carter",
+      "email": "imani.carter@example-corp.test",
+      "mobilePhone": "+1 555-010-1016",
+      "slackId": "UFAKE0016",
+      "profilePhotoUrl": "/avatars/imani-carter.png",
+      "permalink": "https://people.example.test/@icarter",
+      "pronouns": "She/Her",
+      "title": "Analytics Solution Engineer",
+      "jobCodeTitle": "91602.Cloud Solution Engineer 2.IC2",
+      "level": "IC2",
+      "department": "Data Platform Engineering",
+      "orgUnitId": "org-data-platform",
+      "managerId": "person-victor-chen",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-priya-shah",
+        "person-victor-chen"
+      ],
+      "about": "Builds analytics demos, dashboard prototypes, and customer data storytelling assets.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": true,
+      "tagsPromptVisible": false,
+      "links": [],
+      "tags": [
+        "analytics",
+        "dashboards",
+        "data-storytelling"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-data-platform-specialist",
+        "badge-winning-demonstrations"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Nashville TN, US",
+        "address": "42 Sample Music Row",
+        "city": "Nashville",
+        "state": "TN",
+        "postalCode": "37203",
+        "country": "US",
+        "building": "Nashville - 42 Sample Music Row",
+        "workspaceType": "REMOTE",
+        "timeZone": "US/Central",
+        "localTimeDisplay": "10:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "430000 - Data Platform Engineering",
+        "legacyOrganization": "Data Platform Engineering",
+        "legacyCostCenter": "DATA",
+        "companyCode": "001",
+        "productAssociation": "Analytics",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Data-Platform",
+          "Analytics"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-drew-hart",
+      "globalUid": "DHART",
+      "displayName": "Drew Hart",
+      "preferredName": "Drew",
+      "username": "drew.hart",
+      "email": "drew.hart@example-corp.test",
+      "mobilePhone": "+1 555-010-1017",
+      "slackId": "UFAKE0017",
+      "profilePhotoUrl": "/avatars/drew-hart.png",
+      "permalink": "https://people.example.test/@dhart",
+      "pronouns": "He/Him",
+      "title": "EVP, Government and Regulated Industries",
+      "jobCodeTitle": "10180.Executive Vice President.EXE",
+      "level": "Executive",
+      "department": "Government and Regulated Industries",
+      "orgUnitId": "org-public-sector",
+      "managerId": "person-morgan-lee",
+      "directReportIds": [
+        "person-owen-smith"
+      ],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee"
+      ],
+      "about": "Coordinates industry teams that support public sector, healthcare, defense, and regulated workloads.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Regulated Workloads Guide",
+          "url": "https://intranet.example.test/regulated-workloads"
+        }
+      ],
+      "tags": [
+        "public-sector",
+        "regulated-industries",
+        "security"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-security-champion"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Washington DC, US",
+        "address": "100 Demo Constitution Ave",
+        "city": "Washington",
+        "state": "DC",
+        "postalCode": "20001",
+        "country": "US",
+        "building": "Washington - 100 Demo Constitution Ave",
+        "workspaceType": "ASSIGNED",
+        "timeZone": "US/Eastern",
+        "localTimeDisplay": "11:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "440000 - Government and Regulated Industries",
+        "legacyOrganization": "Government and Regulated Industries",
+        "legacyCostCenter": "GOVT",
+        "companyCode": "001",
+        "productAssociation": "Cloud Infrastructure",
+        "hrRepresentative": "People Operations",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Public-Sector",
+          "Security",
+          "Company All"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-owen-smith",
+      "globalUid": "OSMITH",
+      "displayName": "Owen Smith",
+      "preferredName": "Owen",
+      "username": "owen.smith",
+      "email": "owen.smith@example-corp.test",
+      "mobilePhone": "+1 555-010-1018",
+      "slackId": "UFAKE0018",
+      "profilePhotoUrl": "/avatars/owen-smith.png",
+      "permalink": "https://people.example.test/@osmith",
+      "pronouns": "He/Him",
+      "title": "Security Solution Architect",
+      "jobCodeTitle": "91604.Cloud Solution Engineer 4.IC4",
+      "level": "IC4",
+      "department": "Government and Regulated Industries",
+      "orgUnitId": "org-public-sector",
+      "managerId": "person-drew-hart",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-drew-hart"
+      ],
+      "about": "Guides customer teams through zero trust architecture and compliance mapping.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Security Review Checklist",
+          "url": "https://intranet.example.test/security-review"
+        }
+      ],
+      "tags": [
+        "security",
+        "compliance",
+        "zero-trust"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-security-champion",
+        "badge-enterprise-architecture"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Phoenix AZ, US",
+        "address": "10 Example Desert Drive",
+        "city": "Phoenix",
+        "state": "AZ",
+        "postalCode": "85004",
+        "country": "US",
+        "building": "Phoenix - 10 Example Desert Drive",
+        "workspaceType": "REMOTE",
+        "timeZone": "US/Arizona",
+        "localTimeDisplay": "8:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "440000 - Government and Regulated Industries",
+        "legacyOrganization": "Government and Regulated Industries",
+        "legacyCostCenter": "GOVT",
+        "companyCode": "001",
+        "productAssociation": "Security",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Public-Sector",
+          "Security"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-lena-okafor",
+      "globalUid": "LOKAFOR",
+      "displayName": "Lena Okafor",
+      "preferredName": "Lena",
+      "username": "lena.okafor",
+      "email": "lena.okafor@example-corp.test",
+      "mobilePhone": "+1 555-010-1019",
+      "slackId": "UFAKE0019",
+      "profilePhotoUrl": "/avatars/lena-okafor.png",
+      "permalink": "https://people.example.test/@lokafor",
+      "pronouns": "She/Her",
+      "title": "SVP, Business Operations",
+      "jobCodeTitle": "10150.Senior Vice President.EXE",
+      "level": "SVP",
+      "department": "Business Operations",
+      "orgUnitId": "org-business-ops",
+      "managerId": "person-morgan-lee",
+      "directReportIds": [
+        "person-theo-martin"
+      ],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee"
+      ],
+      "about": "Owns planning, forecasting, pipeline hygiene, and operating dashboards for field leadership.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Operations Dashboard",
+          "url": "https://intranet.example.test/ops-dashboard"
+        }
+      ],
+      "tags": [
+        "operations",
+        "forecasting",
+        "analytics"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-customer-impact"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Dallas TX, US",
+        "address": "780 Example Tower",
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75201",
+        "country": "US",
+        "building": "Dallas - 780 Example Tower",
+        "workspaceType": "FLEX",
+        "timeZone": "US/Central",
+        "localTimeDisplay": "10:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "610000 - Business Operations",
+        "legacyOrganization": "Business Operations",
+        "legacyCostCenter": "BOPS",
+        "companyCode": "001",
+        "productAssociation": "Operations",
+        "hrRepresentative": "People Operations",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Business-Ops",
+          "Field-Ops"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-theo-martin",
+      "globalUid": "TMARTIN",
+      "displayName": "Theo Martin",
+      "preferredName": "Theo",
+      "username": "theo.martin",
+      "email": "theo.martin@example-corp.test",
+      "mobilePhone": "+1 555-010-1020",
+      "slackId": "UFAKE0020",
+      "profilePhotoUrl": "/avatars/theo-martin.png",
+      "permalink": "https://people.example.test/@tmartin",
+      "pronouns": "He/Him",
+      "title": "Business Operations Analyst",
+      "jobCodeTitle": "81244.Business Operations Analyst.IC2",
+      "level": "IC2",
+      "department": "Business Operations",
+      "orgUnitId": "org-business-ops",
+      "managerId": "person-lena-okafor",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-morgan-lee",
+        "person-lena-okafor"
+      ],
+      "about": "Maintains headcount reporting, territory data quality, and weekly operating metrics.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": true,
+      "tagsPromptVisible": true,
+      "links": [],
+      "tags": [],
+      "badges": [
+        "badge-compliance-fy26-gold"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "Austin TX, US",
+        "address": "2300 Example Way",
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78741",
+        "country": "US",
+        "building": "Austin - 2300 Example Way",
+        "workspaceType": "FLEX",
+        "timeZone": "US/Central",
+        "localTimeDisplay": "10:23 AM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "610000 - Business Operations",
+        "legacyOrganization": "Business Operations",
+        "legacyCostCenter": "BOPS",
+        "companyCode": "001",
+        "productAssociation": "-",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Business-Ops",
+          "Field-Ops"
+        ]
+      },
+      "availability": {
+        "status": "out-of-office",
+        "outOfOfficeMessage": "I am attending training and will reply after 3 PM Central.",
+        "outOfOfficeStart": "2026-06-11",
+        "outOfOfficeEnd": "2026-06-11"
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    },
+    {
+      "id": "person-omar-nasser",
+      "globalUid": "ONASSER",
+      "displayName": "Omar Nasser",
+      "preferredName": "Omar",
+      "username": "omar.nasser",
+      "email": "omar.nasser@example-corp.test",
+      "mobilePhone": "+1 555-010-1021",
+      "slackId": "UFAKE0021",
+      "profilePhotoUrl": "/avatars/omar-nasser.png",
+      "permalink": "https://people.example.test/@onasser",
+      "pronouns": "He/Him",
+      "title": "Director, Customer Adoption",
+      "jobCodeTitle": "10220.Director.M4",
+      "level": "M4",
+      "department": "Customer Success Services",
+      "orgUnitId": "org-customer-success",
+      "managerId": "person-rina-kapoor",
+      "directReportIds": [],
+      "managerChain": [
+        "person-alex-rivers",
+        "person-rina-kapoor"
+      ],
+      "about": "Runs adoption programs that help strategic customers expand cloud usage after go-live.",
+      "aboutPromptVisible": false,
+      "linksPromptVisible": false,
+      "tagsPromptVisible": false,
+      "links": [
+        {
+          "label": "Adoption Playbook",
+          "url": "https://intranet.example.test/adoption-playbook"
+        }
+      ],
+      "tags": [
+        "adoption",
+        "customer-success",
+        "programs"
+      ],
+      "badges": [
+        "badge-compliance-fy26-gold",
+        "badge-customer-impact",
+        "badge-selling-with-value"
+      ],
+      "patents": [],
+      "location": {
+        "summary": "London, UK",
+        "address": "1 Example Square",
+        "city": "London",
+        "state": "",
+        "postalCode": "EC2N 1AB",
+        "country": "UK",
+        "building": "London - 1 Example Square",
+        "workspaceType": "FLEX",
+        "timeZone": "Europe/London",
+        "localTimeDisplay": "4:23 PM Thu"
+      },
+      "additionalInformation": {
+        "costCenter": "510000 - Customer Success Services",
+        "legacyOrganization": "Customer Success Services",
+        "legacyCostCenter": "CSS1",
+        "companyCode": "826",
+        "productAssociation": "Cloud Portfolio",
+        "hrRepresentative": "",
+        "hrManager": "HR Help and Contacts",
+        "hrAddress": "-",
+        "slackWorkspaces": [
+          "Customer-Success",
+          "EMEA"
+        ]
+      },
+      "availability": {
+        "status": "available",
+        "outOfOfficeMessage": null,
+        "outOfOfficeStart": null,
+        "outOfOfficeEnd": null
+      },
+      "contactActions": [
+        {
+          "type": "email",
+          "label": "Send an email"
+        },
+        {
+          "type": "slack",
+          "label": "Send a message on Slack"
+        },
+        {
+          "type": "vcard",
+          "label": "Download Contact"
+        }
+      ]
+    }
+  ],
+  "searchFacets": {
+    "locations": [
+      "Atlanta GA, US",
+      "Austin TX, US",
+      "Boston MA, US",
+      "Chicago IL, US",
+      "Dallas TX, US",
+      "Denver CO, US",
+      "London, UK",
+      "New York NY, US",
+      "Phoenix AZ, US",
+      "Reston VA, US",
+      "San Francisco CA, US",
+      "Seattle WA, US",
+      "Toronto ON, CA",
+      "Washington DC, US"
+    ],
+    "departments": [
+      "AI ISV Solutions",
+      "Business Operations",
+      "Cloud Infrastructure Sales Engineering",
+      "Customer Success Services",
+      "Data Platform Engineering",
+      "Executive Council",
+      "Global Field Operations",
+      "Government and Regulated Industries",
+      "North America Sales Engineering"
+    ],
+    "skillsAndTags": [
+      "adoption",
+      "ai",
+      "analytics",
+      "architecture",
+      "cloud-infrastructure",
+      "customer-success",
+      "data-platform",
+      "database",
+      "demos",
+      "field-operations",
+      "migration",
+      "public-sector",
+      "security",
+      "solution-engineering",
+      "sql"
+    ],
+    "availabilityStatuses": [
+      "available",
+      "busy",
+      "out-of-office"
+    ],
+    "workspaceTypes": [
+      "ASSIGNED",
+      "FLEX",
+      "REMOTE"
+    ]
+  }
+}
