@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=ubuntu
 WorkingDirectory=/opt/onearia
-Environment=HOST=0.0.0.0
+Environment=HOST=127.0.0.1
 Environment=PORT=8080
 ExecStart=/usr/bin/node /opt/onearia/server.js
 Restart=always
