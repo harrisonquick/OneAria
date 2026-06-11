@@ -1,0 +1,16 @@
+[Unit]
+Description=OneAria profile browser
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/onearia
+Environment=HOST=0.0.0.0
+Environment=PORT=8080
+ExecStart=/usr/bin/node /opt/onearia/server.js
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

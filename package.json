@@ -1,0 +1,14 @@
+{
+  "name": "onearia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aria People 2.0 profile browser",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check src/app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
