@@ -302,8 +302,11 @@ function badgesView(selected, selectedBadges) {
 function bindEvents() {
   document.querySelector("#global-search")?.addEventListener("input", (event) => {
     state.query = event.target.value;
+    const cursorPosition = event.target.selectionStart ?? state.query.length;
     render();
-    document.querySelector("#global-search")?.focus();
+    const searchInput = document.querySelector("#global-search");
+    searchInput?.focus();
+    searchInput?.setSelectionRange(cursorPosition, cursorPosition);
   });
 
   document.querySelectorAll("[data-person-id]").forEach((button) => {
